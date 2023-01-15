@@ -543,6 +543,10 @@ body {
   }
 
   /* sponsor section responsive */
+  .sponsor_info {
+    width: 100%;
+    padding: 0px 20px;
+  }
   .sponsor_title {
     font-size: 2rem;
   }
