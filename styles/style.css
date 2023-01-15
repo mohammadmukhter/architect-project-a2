@@ -59,6 +59,15 @@ body {
   font-size: 1.1rem;
   color: #424242;
 }
+.nav_bar ul li a:hover {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #0e0d0d;
+  background-color: #ff900e;
+  border-radius: 5px 0px 5px 0px;
+}
 
 /* header banner section css */
 
@@ -269,11 +278,125 @@ body {
 .fact:hover {
   /* transform: rotate(360deg); */
   transform: scale3d(1.2, 1.2, 1.2);
-  border: 1px solid #b82208;
+  border: 2px solid #b82208;
   border-radius: 10px;
 }
 
+/* contact section CSS */
+
+.contact_section {
+  background-color: #6d6c6c;
+  color: #ffffff;
+  margin-top: 100px;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+}
+.contact_info {
+  width: 50%;
+}
+.contact_info h3 {
+  width: 50%;
+  text-align: center;
+  font-size: 3rem;
+  width: calc(100% - 50%);
+  margin: 0px auto;
+}
+.contact_info h3:hover {
+  width: 50%;
+  text-align: center;
+  font-size: 3rem;
+  width: calc(100% - 50%);
+  margin: 0px auto;
+  color: #ff900e;
+}
+.contact_form {
+  width: 50%;
+}
+.contact_form label {
+  margin-bottom: 5px;
+}
+.contact_form h3 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.contact_form form {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  margin-top: -5px;
+}
+.contact_form input {
+  width: 100%;
+  padding: 1em;
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 10px;
+}
+.contact_form #message {
+  height: 8em;
+  border-radius: 5px;
+  border: 0;
+  padding: 1rem;
+}
+.contact_form .send_btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 800;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: coral;
+}
 /* sponsor section CSS  */
 .sponsor_section {
   margin-top: 100px;
+}
+.sponsor_info {
+  width: calc(100% - 60%);
+  margin: 0px auto;
+  text-align: center;
+}
+.sponsor_title {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #131313;
+}
+.sponsor_description {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  color: #727272;
+  margin-top: 20px;
+}
+.sponsors {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+  margin-top: 50px;
+  align-items: center;
+}
+.sponsor img {
+  filter: grayscale(100%);
+  width: 100%;
+  height: 100%;
+}
+/* footer section CSS start */
+.footer_section {
+  padding-bottom: 100px;
+}
+.footer_container {
+  background: #fff4e7;
+  border-radius: 8px;
+  padding: 35px;
+  text-align: center;
+  margin-top: 130px;
+}
+.footer_container p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 23px;
+  color: #424242;
 }
