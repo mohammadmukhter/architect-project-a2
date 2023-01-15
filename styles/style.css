@@ -238,10 +238,42 @@ body {
   padding: 30px 40px;
   border-radius: 8px;
   text-align: center;
+
+  transition: border, border-radius 0.2s ease, transform 1s ease;
+}
+.fact_title {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #131313;
+  margin-bottom: 20px;
+}
+.fact_description {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #727272;
+  width: calc(100% - 60%);
 }
 .fact h3 {
   margin-top: 10px;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #424242;
 }
 .fact p {
   margin-top: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #727272;
+}
+
+.fact:hover {
+  /* transform: rotate(360deg); */
+  transform: scale3d(1.2, 1.2, 1.2);
+  border: 1px solid #b82208;
+  border-radius: 10px;
+}
+
+/* sponsor section CSS  */
+.sponsor_section {
+  margin-top: 100px;
 }
